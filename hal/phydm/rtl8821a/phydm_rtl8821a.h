@@ -21,6 +21,12 @@
 #define __ODM_RTL8821A_H__
 
 VOID
+phydm_set_ext_band_switch_8821A(
+	IN		PVOID		pDM_VOID,
+	IN		u4Byte		band
+);
+
+VOID
 odm_HWSetting_8821A(
 	IN		PDM_ODM_T		pDM_Odm
 );
